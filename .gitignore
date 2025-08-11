@@ -1,0 +1,8 @@
+output/STIR*
+output/SCARED*
+
+__pycache__/
+slurm-*
+notebooks/
+*.code-workspace
+*.sh

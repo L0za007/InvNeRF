@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Step: Edit below title -->
+    <title>InvNeRF</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="research papers, academic papers, AI research, robotics research, machine learning, published papers, scientific papers, academic journals"
+    />
+    <link
+      rel="icon"
+      href="media/icon/icon16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="media/icon/icon32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="media/icon/icon64.png"
+      sizes="64x64"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" type="text/css" href="media/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <button class="toggle-btn" onclick="toggleDarkMode()">
+        Dark Mode
+      </button>
+    </nav>
+
+    <!-- Step 1 Start: Header Part -->
+
+    <div class="header">
+      <h1>Surg - InvNeRF: Invertible NeRF for 3D tracking and reconstruction in surgical vision</h1>
+      <div class="authors">
+        <p>
+          <a href="https://www.stormlabuk.com/about-us/#:~:text=Jiao%20Tong%20University-,Gerardo%20Loza,-Ph.D%20Student">Gerardo Loza</a><sup>1</sup><sub>1</sub>,
+          <a href="https://www.stormlabuk.com/about-us/#:~:text=University%20of%20Lincoln.-,Junlei%20Hu,-Ph.D%20Student">Junlei Hu </a><sup>2</sup>,
+          <a href="https://www.stormlabuk.com/about-us/#:~:text=University%20of%20Leeds-,Dominic%20Jones,-Lecturer%20in%20Medical">Dominic Jones  </a><sup>2</sup>,
+          <a href="https://eps.leeds.ac.uk/computing/staff/11465/dr-sharib-ali">Sharib Ali </a><sup>1</sup>,
+          <a href="https://www.stormlabuk.com/about-us/#:~:text=STORM%20Lab%20Director-,Pietro%20Valdastri,-Professor%20and%20Chair">Pietro Valdastri</a><sup>2</sup>,
+        </p>
+        <p>
+          <sup>1</sup>School of Computer Science,
+          <sup>2</sup>School of Electronic and Electrical Engineering, University of Leeds, West Yorkshire, UK.
+        </p>
+        <p>
+          Gerardo Loza - <a href="mailto:scgelg@leeds.ac.uk">scgelg@leeds.ac.uk</a>
+        </p>
+        <!-- <p>📌 Presented at TODO:</p> -->
+      </div>
+    </div>
+
+    <!-- Step 1 End: Header Part -->
+
+    <!-- Step 2 Start: Button for links -->
+
+    <div class="buttons">
+      <a href="#" target="_blank">Paper</a>
+      <!-- <a href="#" target="_blank">Videos</a> -->
+      <a href="https://github.com/L0za007/InvNeRF" target="_blank">Code</a>
+      <a href="#bibtex">BibTex</a>
+    </div>
+
+    <!-- Step 2 End: Button for links -->
+
+    <!-- Step 3 Start: Add your paper abstract -->
+
+
+    <div class="abstract" id="abstract">
+      <h2>Abstract</h2>
+      <p> We proposed a novel test-time optimisation (TTO) approach framed by a NeRF-based architecture for
+      long-term 3D point tracking. TTO approaches frame the solution for long-term tracking as optimising 
+      a function that aggregates correspondences from other specialised state-of-the-art methods. 
+      In this work, we propose parametrising such a function with our new invertible Neural Radiance Field (InvNeRF) 
+      architecture to perform both 2D and 3D tracking in surgical scenarios...  </p> 
+    </div>
+
+    <!-- Step 3 End: Add your paper abstract -->
+
+    <!-- Step 4 Start: Add your paper results -->
+
+    <div class="content-section" id="results">
+      <h2>Results</h2>
+      <p>Qualitative results for 3D point tracking.</p>
+      <div class="video-container">   
+        <video width="640" height="360" controls>
+          <source src="media/InvNeRF.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>Qualitative results for our pixel sampling algorithm.</p>
+      <div class="video-container">   
+        <video width="640" height="360" controls>
+          <source src="media/Pixel_Sampling.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Step 4 End: Add your paper results -->
+
+    <!-- Step 5 Start: Add your paper reference -->
+
+    <div class="bibtex-section" id="bibtex">
+      <h2>BibTeX</h2>
+      <button class="bibtex-copy-button" onclick="copyBibTeX()">
+        Copy to Clipboard
+      </button>
+      <pre>
+        <!-- Please edit only below details -->
+        <code class="language-bibtex">
+          @{loza_InvNeRF,
+            title={Surg - InvNeRF: Invertible NeRF for 3D tracking and reconstruction in surgical vision},
+            author={Gerardo Loza and Junlei Hu and Dominic Jones and Pietro Valdastri and Sharib Ali},
+            booktitle={....},
+            year={2024},
+            pages={#}
+          }
+        </code>
+      </pre>
+    </div>
+
+    <!-- Step 5 End: Add your paper reference -->
+
+    <!-- Step 6 Start: Add your paper acknowledgement -->
+
+    <div class="content-section" id="acknowledgement">
+      <h2>Acknowledgement</h2>
+      <p>This work was supported by the National Institutes of Health (NIH),
+        the Mexican Council for Science and Technology (CONACYT), the University of Leeds
+        and in part by UK Research and Innovation (UKRI).</p>
+    </div>
+
+    <!-- Step 6 End: Add your paper acknowledgement -->
+
+    <div class="footer">
+      <!-- Step 7 Start: Edit footer -->
+      <p>© 2024 University of Leeds. All rights reserved.</p>
+      <!-- Step 7 End: Edit footer -->
+       <div>
+</div>
+
+    <!-- Do not edit below button -->
+    <button class="scrollUpBtn" id="scrollUpBtn" onclick="scrollToTop()">
+      ⬆
+    </button>
+
+    <script src="media/script.js"></script>
+  </body>
+</html>
