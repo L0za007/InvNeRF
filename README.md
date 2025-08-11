@@ -5,11 +5,11 @@ Invertible Neural Radiance Field (InvNeRF) implementation.
 
 Qualitative results for 3D point tracking.
 
-<video src='media/InvNeRF.mp4' width=480 /> |
+<image src='media/InvNeRF.gif' width=480 /> |
 
 Qualitative results for our pixel sampling algorithm.
 
-<video src='media/Pixel_Sampling.mp4' width=480 /> |
+<image src='media/Pixel_Sampling.gif' width=480 /> |
 
 # Optimisation
 This section will be released after publishing
@@ -21,7 +21,7 @@ This section will be released soon
 This section will be released soon
 # Citation
 ```bibtex
-@article{Loza2023DTx,
+@article{InvNeRF2024,
    author = {Gerardo Loza and Junlei Hu and Dominic Jones and Pietro Valdastri and Sharib Ali},
    title = {Real-time surgical tool detection with multi-scale positional encoding and contrastive learning},
    keywords = {long-term point tracking, test-time optimisation, invertible NeRF (InvNeRF), consistent motion, geometric consistency},
