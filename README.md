@@ -1,5 +1,6 @@
 # Surg - InvNeRF: Invertible NeRF for 3D tracking and reconstruction in surgical vision
 
+Full code will be released upon acceptance of the manuscript.
 
 Invertible Neural Radiance Field (InvNeRF) implementation.
 
@@ -12,7 +13,7 @@ Qualitative results for our pixel sampling algorithm.
 <image src='media/Pixel_Sampling.gif' width=480 /> |
 
 # Optimisation
-This section will be released after publishing
+This section will be released after the work is accepted/published
 # Validation
 This section will be released soon
 # Visualisation
@@ -34,6 +35,6 @@ Aditionally, if you want to run experiments using the dynamic proposal network i
    author = {Gerardo Loza and Junlei Hu and Dominic Jones and Pietro Valdastri and Sharib Ali},
    title = {Real-time surgical tool detection with multi-scale positional encoding and contrastive learning},
    keywords = {long-term point tracking, test-time optimisation, invertible NeRF (InvNeRF), consistent motion, geometric consistency},
-   year = {2024},
+   year = {2025},
 }
 ```
