@@ -18,7 +18,16 @@ This section will be released soon
 # Visualisation
 This section will be released soon
 # Installation
-This section will be released soon
+We recomend the use of a conda environment, you can use the comand below to create an environment with python 3.10. Then follow the instrucctions from the [PyTorch documentation](https://pytorch.org/#:~:text=and%20easy%20scaling.-,Install%20PyTorch,-Select%20your%20preferences) to install torch. We ran our code with torch 2.5.1 and CUDA 12.4.
+```
+conda env create -f enviroment.yml 
+```
+Once you install torch in your environment please intall the missing requirements with the following comand.
+```
+pip install -r requirements.txt
+```
+-------
+Aditionally, if you want to run experiments using the dynamic proposal network in the models folder, you need to install some extra requirements. Please follow the instructions from [NVlabs](https://github.com/NVlabs/tiny-cuda-nn#requirements) to install tiny-cuda-nn and [NeRFAcc](https://github.com/nerfstudio-project/nerfacc#installation) installation process to install NeRFAcc.
 # Citation
 ```bibtex
 @article{InvNeRF2024,

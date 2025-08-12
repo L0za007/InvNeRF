@@ -1,0 +1,16 @@
+lightning
+tensorboard
+tensorboardX 
+scipy 
+opencv-python 
+tqdm 
+configargparse 
+ipdb 
+kornia 
+imageio[ffmpeg]
+matplotlib
+yacs
+python-dotenv
+ipympl
+huggingface_hub
+Ninja
