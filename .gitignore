@@ -1,5 +1,8 @@
+output
 output/STIR*
 output/SCARED*
+sample_data
+Sample_data
 
 __pycache__/
 slurm-*
