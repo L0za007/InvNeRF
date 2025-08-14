@@ -1,6 +1,6 @@
 # Surg - InvNeRF: Invertible NeRF for 3D tracking and reconstruction in surgical vision
 
-*Full code will be released upon acceptance of the manuscript.*
+*Full code will be released upon acceptance of the manuscript.* 
 
 Invertible Neural Radiance Field (InvNeRF) implementation.
 
